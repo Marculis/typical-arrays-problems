@@ -1,12 +1,12 @@
-
 exports.min = function min (array) {
-  return 0;
+  return Math.min (null, array);
 }
 
 exports.max = function max (array) {
-  return 0;
+  return Math.max(null, array);
 }
 
 exports.avg = function avg (array) {
-  return 0;
+let sum = (accumulator, currentValue) => accumulator + currentValue;
+return (sum / array.length);
 }
